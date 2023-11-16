@@ -1,0 +1,64 @@
+baseURL: 'https://example.org/'
+languageCode: en-US
+title: SMNW Cougar Robotics
+theme: arcana
+logo: /logo.svg
+copyright: © Shawnee Misison Northwest Cougar Robotics. 2023 All rights reserved
+taxonomies:
+  tag: tags
+menus:
+  main:
+    - name: The Team
+      weight: 30
+      url: "#"
+    - parent: The Team
+      name: Our Mission
+      weight: 31
+      url: "/mission"
+    - parent: The Team
+      name: Our History
+      weight: 32
+      url: "/history"
+    - parent: The Team
+      name: Where We are Now
+      weight: 33
+      url: "/now"
+    - parent: The Team
+      name: Join Us
+      weight: 34
+      url: "/join"
+params:
+  description: A business/corporate style responsive site template.
+  show_post_dates: false
+  logo: /logo.svg
+  social:
+    - title: Twitter
+      icon: fa-twitter
+      url: 'https://twitter.com'
+    - title: GitHub
+      icon: fa-github
+      url: 'https://github.com/SMNWTeam1982'
+  footer:
+    links:
+      - header: Links
+        links:
+          - title: SMNW Homepage
+            url: 'https://smnorthwest.smsd.org'
+          - title: Robotics Twitter
+            url: 'https://twitter.com'
+          - title: Robotics Instagram
+            url: 'https://instagram.com'
+      - header: Pages
+        links:
+          - title: Mission
+            url: '/mission'
+          - title: History
+            url: '/history'
+          - title: What we do
+            url: '/now'
+          - title: Sponsors
+            url: '/sponsors'
+          - title: Join!
+            url: '/join'
+    contact_form:
+      enabled: false

@@ -1,0 +1,5 @@
+images:
+  - image: https://wikimedia.org/static/images/project-logos/enwiki-2x.png
+    content_html: "Wikipedia test image Logo"
+  - image: NW1.jpg
+    content_html: "Scholarship test image"
