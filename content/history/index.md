@@ -3,7 +3,7 @@ title: Team 1982's History
 url: /history
 ---
 
-A (neearly) complete history of team 1982
+A (halfway) complete history of team 1982
 
 I found a lot of this on [an old SMNW robotics site](https://smnwcougarrobotics.wordpress.com/team-history/), will change and update per request but I put most of this here for completeness sake.
 

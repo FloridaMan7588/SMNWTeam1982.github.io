@@ -1,33 +1,34 @@
 banner:
   enable: true
 items:
+  - type: heading
+    heading: Welcome to the SMNW Robotics Website
+    contents: |
+      We are the robotics team based out of Shawnee Mission Northwest High School in Lenexa, Kansas. We are a student-led team that designs, builds, and programs robots to compete in competition. We are a team that is open to all students, regardless of experience or skill level. We are always looking for new members to join our team! Also most of the content on this site as of now is ripped from the SMNW site, need a graphic designer for logo and need to source some photos for the carousel.
+  - type: posts
+    heading: Recent News
+    content_type: posts
+    max: 4
   - type: highlights
     items_per_row: 3
     items:
-    - title: This Is Important
-      icon: fa-paper-plane
+    - title: Join SMNW Robotics
+      icon: fa-users
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Also Important
-      icon: fa-pencil-alt
+        SMNW Robotics is always looking for new members for the team! Join the GroupMe today 
+        for information on meetings and events.
+    - title: Want to Sponsor Us?
+      icon: fa-dollar-sign
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Probably Important
-      icon: fa-wrench
+        Not only are we always open to new members, we are also looking out for new 
+        sponsorship oppurtunities. See the [Sponsor Page](/sponsors) for information on sposnorship and
+        our other amazing Sponsors!
+    - title: Come to the Events!
+      icon: fa-calendar
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-  - type: heading
-    heading: A gigantic heading you can use for whatever
-    contents: With a much smaller subtitle hanging out just below it
-  - type: posts
-    #heading: Recent Posts
-    content_type: posts
-    max: 4
+        You don't have to join the team to cheer us on, come to our tournaments and support us!
   - type: cta
-    contents: Are you ready to continue your quest?
+    contents: Want to Join the Team?
     button:
-      contents: Insert Coin
-      url: "#"
+      contents: Join the GroupMe here
+      url: "/join"

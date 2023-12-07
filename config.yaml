@@ -28,15 +28,15 @@ menus:
       weight: 34
       url: "/join"
 params:
-  description: A business/corporate style responsive site template.
+  description: Shawnee Mission Northwest Robotics
   show_post_dates: false
-  logo: /logo.svg
+  logo: /logo.png
   social:
     - title: Twitter
-      icon: fa-twitter
+      icon: fa-twitter-square
       url: 'https://twitter.com'
     - title: GitHub
-      icon: fa-github
+      icon: fa-github-square
       url: 'https://github.com/SMNWTeam1982'
   footer:
     links:
